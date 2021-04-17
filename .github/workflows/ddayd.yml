@@ -25,6 +25,6 @@ jobs:
                   npm install
             - name: "运行【多多爱运动】"
               run: |
-                  node ddayd.js
+                  node Task/ddayd.js
               env:
                  PUSH_KEY: ${{ secrets.PUSH_KEY }}
