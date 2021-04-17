@@ -1,4 +1,4 @@
-name: 多多爱运动
+name: 多多爱运动1111111
 
 on:
     workflow_dispatch:
@@ -23,7 +23,7 @@ jobs:
               if: env.DDAYD_ddaydCK
               run: |
                   npm install
-            - name: "运行【多多爱运动】"
+            - name: "运行【多多爱运动1111111111】"
               run: |
                   node ddayd.js
               env:
