@@ -1,4 +1,4 @@
-name: 百度签到
+name: 多多爱运动
 
 on:
     workflow_dispatch:
