@@ -11,8 +11,8 @@
 
 ## 其他作者库同理  替换如下    
  
-## 作者名         6Svip120apk69  
-## 作者库名       gitee_q8qsTAUA_cThxc1RBVUE     
+## 作者名         ziye888  
+## 作者库名       JavaScript     
 ## 作者分支名     main     
 ## 同步分支名     ZIYE   （可自定义 ）
 
@@ -27,7 +27,7 @@ on:
   watch:
     types: started
   repository_dispatch:
-    types: sync-6Svip120apk69-gitee_q8qsTAUA_cThxc1RBVUE
+    types: sync-ziye888
 jobs:
   repo-sync:
     env:
@@ -39,11 +39,11 @@ jobs:
         with:
           persist-credentials: false
 
-      - name: sync 6Svip120apk69-gitee_q8qsTAUA_cThxc1RBVUE
+      - name: sync ziye888
         uses: repo-sync/github-sync@v2
         if: env.PAT
         with:
-          source_repo: "https://github.com/6Svip120apk69/gitee_q8qsTAUA_cThxc1RBVUE.git"
+          source_repo: "https://github.com/ziye888/JavaScript.git"
           source_branch: "main"
           destination_branch: "ZIYE"
           github_token: ${{ secrets.PAT }}
